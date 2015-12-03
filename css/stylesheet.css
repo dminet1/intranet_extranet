@@ -1,0 +1,49 @@
+body {
+  height: 100%;
+}
+/*---------------------*/
+/* barre de navigation */
+/*---------------------*/
+nav {
+  background-color: #59ABE3; /* Picton blue */
+  width: 100%;
+  text-align: right;
+  padding: 0.05em;
+}
+.navli {
+  display: inline-block;
+  padding-right: 3%;
+}
+.lien {
+  border-radius: 10%;
+  color: gray;
+  background-color: #ECECEC; /* White smoke */
+  font-weight: bold;
+  list-style-type: none;
+  text-decoration: none;
+}
+.lien:hover, .lien:focus, #lien_sign_in, #lien_sign_up, .submit_button {
+  color: white;
+  background-color: #2ECC71; /* Green shamrock */
+}
+section {
+  width: 100%;
+  padding-top: 15%;
+}
+/*------------*/
+/* formulaire */
+/*------------*/
+form {
+  width: 20%;
+  color: gray;
+  background-color: #ECECEC; /* White smoke */
+  margin: auto;
+}
+#forgot_password {
+  text-decoration: none;
+}
+.submit_button {
+  font-weight: bold;
+  position: relative;
+  left: 35%;
+}
