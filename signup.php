@@ -8,8 +8,8 @@
   <body>
     <nav>
       <ul>
-        <li class="navli"><a class="lien" href="index.html">Sign in</a></li>
-        <li class="navli"><a class="lien" id="lien_sign_up" href="signup.html">Sign up</a></li>
+        <li class="navli"><a class="lien" href="index.php">Sign in</a></li>
+        <li class="navli"><a class="lien" id="lien_sign_up" href="signup.php">Sign up</a></li>
       </ul>
     </nav>
     <section>
@@ -17,6 +17,16 @@
       <form action="traitement.php" method="post">
         <h3>Sign up</h3>
         <p>
+          <label>
+            <input type="radio" id="radiom" name="sx" value="male" onclick="changeColour('m')" /><img src="img/symbole_homme.png" alt="symbole homme" /><span id="sxm">Male</span>
+          </label>
+          <label>
+            <input type="radio" name="sx" value="female" onclick="changeColour('f')" /><img src="img/symbole_femme.png" alt="symbole femme" /><span id="sxf">Female</span>
+          </label>
+          <label>
+              <input type="radio" name="sx" value="undefined" checked onclick="changeColour('u')" /><span id="sxu">Undefined</span>
+          </label>
+          <p></p>
           <input type="text" name="username" placeholder=" Pick a username" id="username" autofocus required/>
           <p></p>
           <input type="email" name="email" placeholder=" Your email" id="email" required/>
@@ -26,7 +36,8 @@
           <input class="submit_button" type="submit" value="Sign up">
         </p>
       </form>
-      
+
     </section>
+    <script src="js/script.js" type="text/javascript"></script>
   </body>
 </html>
