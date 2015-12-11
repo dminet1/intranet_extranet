@@ -18,13 +18,10 @@
         <h3>Sign up</h3>
         <p>
           <label>
-            <input type="radio" id="radiom" name="sx" value="male" onclick="changeColour('m')" /><img src="img/symbole_homme.png" alt="symbole homme" /><span id="sxm">Male</span>
+            <input type="radio" id="radio" name="sx" value="man" onclick="changeColour('m')" /><img src="img/symbole_homme.png" alt="symbole homme" /><span id="sxm">Man</span>
           </label>
           <label>
-            <input type="radio" name="sx" value="female" onclick="changeColour('f')" /><img src="img/symbole_femme.png" alt="symbole femme" /><span id="sxf">Female</span>
-          </label>
-          <label>
-              <input type="radio" name="sx" value="undefined" checked onclick="changeColour('u')" /><span id="sxu">Undefined</span>
+            <input type="radio" id="radio" name="sx" value="woman" onclick="changeColour('f')" /><img src="img/symbole_femme.png" alt="symbole femme" /><span id="sxf">Woman</span>
           </label>
           <p></p>
           <input type="text" name="username" placeholder=" Pick a username" id="username" autofocus required/>
